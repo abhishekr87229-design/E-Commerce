@@ -57,5 +57,15 @@ Follow these steps to run the application locally on your machine.
    Navigate to `http://localhost:5173/` in your browser to view the application.
 
 ## 📷 Screenshots
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/92216bc1-7bd0-454d-90f4-017c1dad1681" />
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/8e9ef032-18b8-4dd4-9e0d-45b86bbc8afd" />
+<img width="438" height="570" alt="image" src="https://github.com/user-attachments/assets/4926d1b2-71c8-42c7-ab64-77041f73052c" />
 
-*(Add additional screenshots here if needed by uploading them to `src/assets/` and referencing them using Markdown image syntax: `![Description](./src/assets/screenshot.png)`)*
+<img width="426" height="531" alt="image" src="https://github.com/user-attachments/assets/97304730-a406-471c-af69-e7666c31ec5e" />
+<img width="1365" height="647" alt="image" src="https://github.com/user-attachments/assets/8e67f7b3-0069-4227-acda-b23668d4a787" />
+
+
+
+
+
+
