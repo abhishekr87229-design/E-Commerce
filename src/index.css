@@ -1,0 +1,39 @@
+:root {
+  --amz-dark: #131921;
+  --amz-light: #232f3e;
+  --amz-orange: #f90;
+  --amz-blue: #007185;
+  --amz-bg: #eaeded;
+  --amz-border: #ddd;
+  --amz-text: #0f1111;
+  --font-family: Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--amz-bg);
+  color: var(--amz-text);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+input {
+  font-family: inherit;
+}

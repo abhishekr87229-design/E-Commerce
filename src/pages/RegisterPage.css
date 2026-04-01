@@ -1,0 +1,14 @@
+/* Reusing LoginPage styles, importing them would be better but we can use the same classnames.
+   We just need to add the auth-footer styling here */
+
+@import './LoginPage.css';
+
+.auth-footer {
+  margin-top: 20px;
+  font-size: 13px;
+  background: linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+}
+
+.auth-footer p {
+  padding-top: 15px;
+}

@@ -1,0 +1,164 @@
+.navbar {
+  background-color: var(--amz-dark);
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 0 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  gap: 15px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-menu-icon {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.nav-logo h2 {
+  font-size: 22px;
+  padding: 5px;
+  border: 1px solid transparent;
+}
+
+.nav-logo:hover h2 {
+  border: 1px solid white;
+}
+
+.nav-fill {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.nav-searchbar {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.nav-searchbar:focus-within {
+  box-shadow: 0 0 0 2px var(--amz-orange);
+}
+
+.nav-search-facade {
+  background-color: #f3f3f3;
+  color: #333;
+  border: none;
+  border-right: 1px solid #ccc;
+  padding: 0 10px;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.nav-search-input {
+  flex: 1;
+  border: none;
+  padding: 0 10px;
+  font-size: 15px;
+  outline: none;
+}
+
+.nav-search-submit {
+  background-color: #febd69;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-search-submit:hover {
+  background-color: #f3a847;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px 8px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  border: 1px solid white;
+}
+
+.nav-line-1 {
+  font-size: 12px;
+  color: #ccc;
+  line-height: 14px;
+}
+
+.nav-line-2 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15px;
+}
+
+.nav-cart {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.cart-icon-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.cart-count {
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--amz-orange);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.cart-text {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px;
+  }
+  
+  .nav-fill {
+    order: 3;
+    width: 100%;
+    margin-top: 10px;
+    flex: none;
+  }
+  
+  .nav-line-1, .nav-line-2.cart-text {
+    display: none;
+  }
+}
